@@ -1,2 +1,2 @@
 #!/bin/bash
-wc {ls -lra}
+find . -type d -path './*' -print | wc -l
